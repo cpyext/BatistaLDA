@@ -1,0 +1,51 @@
+{
+  "features": [
+    {
+      "name": "location",
+      "streamId": "my-stream-id-1",
+      "templateType": "JS",
+      "entityPageSet": {
+        "plugin": {}
+      }
+    },
+    {
+      "name": "robots",
+      "templateType": "JS",
+      "staticPage": {
+        "plugin": {}
+      }
+    }
+  ],
+  "streams": [
+    {
+      "$id": "my-stream-id-1",
+      "fields": [
+        "id",
+        "uid",
+        "meta",
+        "name",
+        "address",
+        "mainPhone",
+        "description",
+        "hours",
+        "slug",
+        "geocodedCoordinate",
+        "emails",
+        "c_richDescriptionv2",
+        "c_loc_image2",
+        "c_loc_image1"
+      ],
+      "filter": {
+        "entityTypes": [
+          "location"
+        ]
+      },
+      "localization": {
+        "locales": [
+          "en"
+        ],
+        "primary": false
+      }
+    }
+  ]
+}

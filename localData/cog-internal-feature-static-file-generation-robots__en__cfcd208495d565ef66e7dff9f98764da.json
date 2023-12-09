@@ -1,0 +1,47 @@
+{
+	"__": {
+		"name": "robots",
+		"staticPage": {
+			"plugin": {}
+		},
+		"templateType": "JS"
+	},
+	"_site": {
+		"c_footer": {
+			"height": 894,
+			"url": "https://a.mktgcdn.com/p/ib5TScnPVWMrebkkdL3ETVyCIbjMgYgzxdgqSOau2EI/3584x894.png",
+			"width": 3584
+		},
+		"c_landpageimg2": {
+			"height": 480,
+			"url": "https://a.mktgcdn.com/p/MTcj6iRq6eMY6TrpIIzSvnaynOtKUDdSguOKyduRVoY/1600x480.jpg",
+			"width": 1600
+		},
+		"id": "4399232932529281514",
+		"logo": {
+			"image": {
+				"height": 440,
+				"url": "https://a.mktgcdn.com/p/yVoMCnQN0-A2py_puzr5pbtIFSJ47S7yp7yPvnniG2U/440x440.png",
+				"width": 440
+			}
+		},
+		"meta": {
+			"entityType": {
+				"id": "ce_site",
+				"uid": 141703
+			},
+			"locale": "en"
+		},
+		"name": "root",
+		"uid": 1025037794
+	},
+	"businessId": 4124312,
+	"key": "0:robots:knowledgeGraph:0:en",
+	"locale": "en",
+	"meta": {
+		"locale": "en"
+	},
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": ""
+}

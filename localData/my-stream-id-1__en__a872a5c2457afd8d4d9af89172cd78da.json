@@ -1,0 +1,270 @@
+{
+	"__": {
+		"entityPageSet": {
+			"plugin": {}
+		},
+		"name": "location",
+		"streamId": "my-stream-id-1",
+		"templateType": "JS"
+	},
+	"_site": {
+		"c_footer": {
+			"height": 894,
+			"url": "https://a.mktgcdn.com/p/ib5TScnPVWMrebkkdL3ETVyCIbjMgYgzxdgqSOau2EI/3584x894.png",
+			"width": 3584
+		},
+		"c_landpageimg2": {
+			"height": 480,
+			"url": "https://a.mktgcdn.com/p/MTcj6iRq6eMY6TrpIIzSvnaynOtKUDdSguOKyduRVoY/1600x480.jpg",
+			"width": 1600
+		},
+		"id": "4399232932529281514",
+		"logo": {
+			"image": {
+				"height": 440,
+				"url": "https://a.mktgcdn.com/p/yVoMCnQN0-A2py_puzr5pbtIFSJ47S7yp7yPvnniG2U/440x440.png",
+				"width": 440
+			}
+		},
+		"meta": {
+			"entityType": {
+				"id": "ce_site",
+				"uid": 141703
+			},
+			"locale": "en"
+		},
+		"name": "root",
+		"uid": 1025037794
+	},
+	"address": {
+		"city": "LISBOA",
+		"countryCode": "PT",
+		"line1": "Rua Dona Estefânia",
+		"line2": "98-E  Lisboa",
+		"localizedCountryName": "Portugal",
+		"postalCode": "1000-158"
+	},
+	"businessId": 4124312,
+	"c_loc_image1": {
+		"height": 1441,
+		"url": "https://a.mktgcdn.com/p/YJiWxccChI2AD4MRNb9f3Nf5Qnr3NFhaP2hAKQ6Ttg4/1920x1441.jpg",
+		"width": 1920
+	},
+	"c_loc_image2": {
+		"height": 1041,
+		"url": "https://a.mktgcdn.com/p/i38ZBjKv7_Cthuaply5J_IJXW06v_CFS5IrhS3fmOSQ/1390x1041.png",
+		"width": 1390
+	},
+	"c_richDescriptionv2": {
+		"json": {
+			"root": {
+				"children": [
+					{
+						"children": [
+							{
+								"detail": 0,
+								"format": 0,
+								"mode": "normal",
+								"style": "",
+								"text": "Carvalho, Batista, Lda. - Hardware and Construction Materials",
+								"type": "text",
+								"version": 1
+							}
+						],
+						"direction": "ltr",
+						"format": "center",
+						"indent": 0,
+						"tag": "h1",
+						"type": "heading",
+						"version": 1
+					},
+					{
+						"children": [
+							{
+								"detail": 0,
+								"format": 1,
+								"mode": "normal",
+								"style": "",
+								"text": "Carvalho, Batista, Lda ",
+								"type": "text",
+								"version": 1
+							},
+							{
+								"detail": 0,
+								"format": 0,
+								"mode": "normal",
+								"style": "",
+								"text": "has first-class ",
+								"type": "text",
+								"version": 1
+							},
+							{
+								"detail": 0,
+								"format": 1,
+								"mode": "normal",
+								"style": "",
+								"text": "construction materials",
+								"type": "text",
+								"version": 1
+							},
+							{
+								"detail": 0,
+								"format": 0,
+								"mode": "normal",
+								"style": "",
+								"text": " for your construction or work..",
+								"type": "text",
+								"version": 1
+							},
+							{
+								"type": "linebreak",
+								"version": 1
+							},
+							{
+								"type": "linebreak",
+								"version": 1
+							},
+							{
+								"detail": 0,
+								"format": 0,
+								"mode": "normal",
+								"style": "",
+								"text": "From equipment, to signage suitable for works through to finishing articles: armored doors, doors for wardrobes, hinges, locks, handles in aluminum, stainless steel and brass, kitchen, showers and bath faucets, bathroom accessories such as baskets, shelf for towels, door roller etc..",
+								"type": "text",
+								"version": 1
+							},
+							{
+								"type": "linebreak",
+								"version": 1
+							},
+							{
+								"type": "linebreak",
+								"version": 1
+							},
+							{
+								"detail": 0,
+								"format": 1,
+								"mode": "normal",
+								"style": "",
+								"text": "Carvalho, Batista, lda",
+								"type": "text",
+								"version": 1
+							},
+							{
+								"detail": 0,
+								"format": 0,
+								"mode": "normal",
+								"style": "",
+								"text": " offers you a wide range to select the essential materials for your construction work, without neglecting the equipment for the workers!",
+								"type": "text",
+								"version": 1
+							}
+						],
+						"direction": "ltr",
+						"format": "center",
+						"indent": 0,
+						"type": "paragraph",
+						"version": 1
+					}
+				],
+				"direction": "ltr",
+				"format": "",
+				"indent": 0,
+				"type": "root",
+				"version": 1
+			}
+		}
+	},
+	"emails": [
+		"carvalho.batista.lda@gmail.com"
+	],
+	"geocodedCoordinate": {
+		"latitude": 38.7341805,
+		"longitude": -9.1412612
+	},
+	"hours": {
+		"friday": {
+			"openIntervals": [
+				{
+					"end": "13:00",
+					"start": "09:00"
+				},
+				{
+					"end": "18:00",
+					"start": "14:00"
+				}
+			]
+		},
+		"monday": {
+			"openIntervals": [
+				{
+					"end": "13:00",
+					"start": "09:00"
+				},
+				{
+					"end": "18:00",
+					"start": "14:00"
+				}
+			]
+		},
+		"saturday": {
+			"isClosed": true
+		},
+		"sunday": {
+			"isClosed": true
+		},
+		"thursday": {
+			"openIntervals": [
+				{
+					"end": "13:00",
+					"start": "09:00"
+				},
+				{
+					"end": "18:00",
+					"start": "14:00"
+				}
+			]
+		},
+		"tuesday": {
+			"openIntervals": [
+				{
+					"end": "13:00",
+					"start": "09:00"
+				},
+				{
+					"end": "18:00",
+					"start": "14:00"
+				}
+			]
+		},
+		"wednesday": {
+			"openIntervals": [
+				{
+					"end": "13:00",
+					"start": "09:00"
+				},
+				{
+					"end": "18:00",
+					"start": "14:00"
+				}
+			]
+		}
+	},
+	"id": "loc1",
+	"key": "0:location:knowledgeGraph:1025037743:en",
+	"locale": "en",
+	"mainPhone": "+351210458023",
+	"meta": {
+		"entityType": {
+			"id": "location",
+			"uid": 0
+		},
+		"locale": "en"
+	},
+	"name": "Carvalho, Batista, Lda",
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"slug": "loc1",
+	"uid": 1025037743
+}
