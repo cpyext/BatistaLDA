@@ -33,7 +33,12 @@
         "emails",
         "c_richDescriptionv2",
         "c_loc_image2",
-        "c_loc_image1"
+        "c_loc_image1",
+        "c_animationPhoto1",
+        "c_animationPhoto2",
+        "c_animationPhoto3",
+        "c_animationPhoto4",
+        "c_animationPhoto5"
       ],
       "filter": {
         "entityTypes": [

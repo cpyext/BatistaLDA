@@ -55,6 +55,11 @@ export const config: TemplateConfig = {
       "c_richDescriptionv2",
       "c_loc_image2",
       "c_loc_image1",
+      "c_animationPhoto1",
+      "c_animationPhoto2",
+      "c_animationPhoto3",
+      "c_animationPhoto4",
+      "c_animationPhoto5",
       // "services",
       // "c_promotion1",
       // "c_promotion2",
@@ -165,6 +170,12 @@ const Location: Template<TemplateRenderProps> = ({
     c_richDescriptionv2,
     c_loc_image1,
     c_loc_image2,
+    c_animationPhoto1,
+    c_animationPhoto2,
+    c_animationPhoto3,
+    c_animationPhoto4,
+    c_animationPhoto5,
+
     // services,
     // c_promotion1,
     // c_aboutTheStore,
@@ -178,8 +189,60 @@ const Location: Template<TemplateRenderProps> = ({
     // c_servicesAvailable,
   } = document;
   console.log(address);
+
   return (
     <>
+      <style>
+        {`
+
+          .ctabutton{
+            padding: 1em 2em;
+                background: #c01621;
+                margin-top: 0.5em;
+                color: white;
+               
+          }
+          .ctabutton:hover {
+            background-color: black;
+          }
+      
+
+                .PropText{
+                  
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-attachment: scroll;
+            background-size: cover;
+            width: 1792px;
+            height: 465px;
+            opacity: 1;
+            animation:mymove;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-direction: infinite;
+                }
+                
+                @keyframes mymove {
+                  0% {
+                   background-image: url(${c_animationPhoto1.url});
+                  }
+                  25% {
+                    background-image: url(${c_animationPhoto2.url});
+                  }
+                  50% {
+                    background-image: url(${c_animationPhoto3.url});
+                    
+                  }
+                  75% {
+                    background-image: url(${c_animationPhoto4.url});
+                    
+                  }
+                  100% {
+                    background-image: url(${c_animationPhoto5.url});
+                  }
+                }
+            `}
+      </style>
       <Schema document={_cpy}></Schema>
       <PageLayout _site={_site}>
         <div style={{ margin: "1em" }}>
@@ -261,21 +324,7 @@ const Location: Template<TemplateRenderProps> = ({
           </div>
         </div>
 
-        <div
-          style={{
-            backgroundColor: "rgba(0, 0, 0, 0)",
-            backgroundImage:
-              "url(https://a.mktgcdn.com/p/NYEkwM-SxshjbmhAATWTmh0EdgoVKCbQ44lfhPzqHjc/1600x480.jpg)",
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "50% 50%",
-            backgroundAttachment: "scroll",
-            backgroundSize: "cover",
-            // boxhadow: none;
-            width: "1792px",
-            height: "465px",
-            opacity: 1,
-          }}
-        >
+        <div className="PropText">
           <div
             style={{ textAlign: "center", margin: "auto 28%", padding: "3em" }}
           >
@@ -292,11 +341,12 @@ const Location: Template<TemplateRenderProps> = ({
               {name}
             </div>
             <button
-              style={{
-                padding: "1em 2em",
-                background: "#c01621",
-                marginTop: "0.5em",
-              }}
+              className="ctabutton"
+              // style={{
+              //   padding: "1em 2em",
+              //   background: "#c01621",
+              //   marginTop: "0.5em",
+              // }}
             >
               Contact Us
             </button>
@@ -388,23 +438,29 @@ const Location: Template<TemplateRenderProps> = ({
           }}
         >
           <div>
-            <b>Rua Dona Estefânia 98-E 1000-158 Lisbon LISBON Portugal</b>
+            <b>
+              {address.line1} {address.line2} {address.city}{" "}
+              {address.localizedCountryName} {address.postalCode}
+            </b>
           </div>
           <div>
-            <b>Telephone</b>:12345677888
+            <b>Telephone</b>
+            {mainPhone}
           </div>
           <div>
-            <b>Email</b>: asdfjj@gmail.com
+            <b>Email</b>: {emails}
           </div>
           <div>
-            Monday to Friday from <b>9:00 to 13:00 and from 14:00 to 18:00</b>
+            <div className="mt-8">
+              {hours && <Hours title={"Store Timings:"} hours={hours} />}
+            </div>
           </div>
           <div style={{ display: "flex", marginTop: "4em" }}>
             <div style={{ width: "50%" }}>
               <form>
                 <input
                   type="text"
-                  value="* Name"
+                  defaultValue="* Name"
                   style={{
                     color: "gray",
                     width: "30em",
@@ -415,7 +471,7 @@ const Location: Template<TemplateRenderProps> = ({
                 />
                 <input
                   type="text"
-                  value="* Telephone"
+                  defaultValue="* Telephone"
                   style={{
                     color: "gray",
                     width: "30em",
@@ -426,7 +482,7 @@ const Location: Template<TemplateRenderProps> = ({
                 />
                 <input
                   type="text"
-                  value="* Email"
+                  defaultValue="* Email"
                   style={{
                     color: "gray",
                     width: "30em",
@@ -436,7 +492,7 @@ const Location: Template<TemplateRenderProps> = ({
                   }}
                 />
                 <textarea
-                  value="* Message"
+                  defaultValue="* Message"
                   style={{
                     color: "gray",
                     width: "30em",
